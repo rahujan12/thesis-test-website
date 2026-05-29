@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Passkeys Test</title>
+</head>
+<body>
+    <h1>Passkey testsite</h1>
+    <label for="username">Username:</label>
+    <input type="text" id="username" value="testuser">
+    <br><br>
+
+    <button id="registerBtn">Register Passkey</button>
+    <button id="authenticateBtn">Authenticate</button>
+
+    <hr>
+    <h2>Results & WebAuthn Details:</h2>
+    <pre id="results"></pre>
+
+    <script src="https://cdn.jsdelivr.net/npm/cbor-js@0.1.0/cbor.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
